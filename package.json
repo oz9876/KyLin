@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oz9876/Vue-wd.git"
+    "url": "git+https://github.com/oz9876/KyLin.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oz9876/Vue-wd/issues"
+    "url": "https://github.com/oz9876/KyLin/issues"
   },
-  "homepage": "https://github.com/oz9876/Vue-wd#readme",
+  "homepage": "https://github.com/oz9876/KyLin#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
