@@ -1,11 +1,13 @@
 
 import { initSet } from './mixin'
+import { handleError } from '../util/index'
+
 
 // Kylin 构造函数
 function KyLin(options){
 
     if(!(this instanceof KyLin)) {
-        warn(' is a constructor and should be called with the `new` keyword')
+        handleError('请保证KyLin是一个构造函数，且通过new创建')
     }
     // 验证options是否合法
     // 初始化  调用原型链上的_init方法
