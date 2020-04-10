@@ -1,5 +1,6 @@
 
 import { initSet } from './mixin'
+import { initDataWatch } from './stateWatch'
 import { handleError } from '../util/index'
 
 
@@ -15,5 +16,8 @@ function KyLin(options){
 }
 // 初始化一些配置，主要是原型链上挂一些方法
 initSet(KyLin)
+
+// 初始化数据监听组件
+initDataWatch(KyLin)
 
 export default KyLin
